@@ -1,31 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+    <title>do campo a cidade colhendo oportunidade</title>
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>𝐷𝑜 𝑐𝑎𝑚𝑝𝑜 𝑎 𝑐𝑖𝑑𝑎𝑑𝑒, 𝑐𝑜𝑙ℎ𝑒𝑛𝑑𝑜 𝑜𝑝𝑜𝑟𝑡𝑢𝑛𝑖𝑑𝑎𝑑𝑒</h1>
-    </h1>
+<html>
+    <body>
+        <h1 style="font-size: 50px; color: darkmagenta; background-color: mediumorchid; text-align: center;">CALCULAR IMC DE:
 
-    <ol>
-        <li>
-            <h2>
-        </h2> por que as pessoas estão deixando do campo e vindo a cidade?
-       
-            As pessoas deixam o campo e vão para a cidade em busca de melhores oportunidades de emprego, condições de vida, acesso a serviços essenciais e uma vida urbana mais dinâmica.   </h2>
-        </li>
-        <li>
-           <h2>Através dos meios de transporte, pessoas e mercadorias deslocam-se de 
-            um lugar para outro, do espaço urbano para o espaço rural e do espaço 
-            rural para o espaço urbano. Além disso, as notícias também se espalham
-            entre áreas rurais e urbanas devido à presença da mídia.</h2>
-        </li>
-        <li>
-            
-        </li>
-    </ol>
+        </h1>
+        <p style="font-size: 50px;text-align: center;">
+
+    <script>
+        function calcular(peso, altura){
+            return peso/(altura**2);
+        }
+        alert("CLIQUE EM OK PARA COMEÇAR");
+        let nome = prompt("Qual seu nome?");
+        let peso = prompt(nome + ",qual o seu peso?");
+        let altura = prompt(nome + ", qual a sua altura?");
+        let calculo = calcular(peso, altura);
+        let texto = ", seu IMC é: ";
+        let imc = calculo.tofixed(2);
+        document.write(nome.italics()) + txto.bold() + imc.fontcolor("blue");
+    </script>
+</p>
 </body>
 </html>
