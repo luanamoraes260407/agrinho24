@@ -1,19 +1,58 @@
-<<<<<<< HEAD
-body {
-    font-family: Ariel, sa
-=======
-body {
-    font-family: Arial, sans-serif;
+ {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     background-color: #f0f0f0;
+    padding: 20px;
 }
 
 header {
     background-color: #333;
     color: #fff;
+    padding: 10px 20px;
     text-align: center;
-    padding: 1em 0;
->>>>>>> 0cc641121d0da9e287ea16116c7cce351fa9d328
 }
 
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
