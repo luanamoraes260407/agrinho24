@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+body {
+    font-family: Ariel, sa
+=======
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,29 +14,6 @@ header {
     color: #fff;
     text-align: center;
     padding: 1em 0;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-section {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+>>>>>>> 0cc641121d0da9e287ea16116c7cce351fa9d328
 }
 
