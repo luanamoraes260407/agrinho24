@@ -1,8 +1,14 @@
-body {
-    align-items: center;
-    background: linear-gradient(rgb(119, 0, 134), rgb(159, 0, 180), rgb(206, 120, 218));
-  }
+:root{
+    --cor-de-fundo: #8d00b8;
+    --roxo: #e887f5;
+    --branco: #ffffff;
+    --botao-ativo: #a542b3;
+    --botao-inativo: rgba(193, 142, 215, 0.585);
+    --texto-fundo: rgba(84, 60, 90, 0.174);
+}
 
-li{
-    font-family: Kaushan Script ;
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Marck Script',sans-serif;
 }
