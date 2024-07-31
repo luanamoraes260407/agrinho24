@@ -1,7 +1,4 @@
-@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">);
-
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+AR:wght@100..400&display=swap');
 :root{
     --cor-de-fundo: #d877f0;
     --roxo: #080108;
@@ -17,6 +14,9 @@ body{
     font-family: 'Marck Script',sans-serif;
 }
 
+h1{
+    font-family: "Playwrite AR";
+}
 .div-img-tec{
     text-align: center;
 }
