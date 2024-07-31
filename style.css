@@ -12,3 +12,12 @@ body{
     color: var(--branco);
     font-family: 'Marck Script',sans-serif;
 }
+
+.div-img-tec{
+    text-align: center;
+}
+
+.img-tec{
+    width: 600;
+}
+
